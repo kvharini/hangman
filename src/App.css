@@ -1,0 +1,10 @@
+.App {
+  height: 100%;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.App .container {
+  width: 500px;
+  margin: 0 auto;
+}

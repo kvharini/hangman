@@ -1,0 +1,30 @@
+# Only use prettier on these types of files
+!*.js
+!*.ts
+!*.tsx
+!*.md
+!*.json
+!*.yml
+
+# Ignore list
+.git/
+node_modules/
+bower_components/
+vendors/
+vendor/
+tmp/
+dist/
+build/
+coverage/
+.cache/
+bin/
+obj/
+*.min.*
+charts/
+
+# Docker-compose files sometimes need to be specific about quotes when
+# specifying shell commands, so we exclude them from prettier formatting
+docker-compose*.yml
+
+# Ignore generated output
+/src/packages/**/__generated__/
